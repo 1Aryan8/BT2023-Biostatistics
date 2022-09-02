@@ -11,7 +11,7 @@ z = [78.0, 81.1, 84.3, 86.8, 88.1, 88.9, 85.1, 89.4]
 
 n = 8
 r = np.arange(n) 
-width = 0.25\
+width = 0.25
 
 plt.bar(r, y, color = 'purple', width=width, label = "Gross irrigated area")
 plt.bar(r + width , z, color = 'orange', width=width, label = "Net irrigated area")
